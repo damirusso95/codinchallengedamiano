@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #contenitore{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    margin: 1.5% 15% 4%;
+    padding: 5% 5.5%;
+  }
+  
+  header, nav{
+    text-align: center;
+  }
+  
+  #logo{
+    height: 110px;
+  }
+  
+  #slogan{
+    font-size: 28px;
+    color: #00dd00;
+  }
+  
+  nav{
+    background-color: #00dd00;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  main{
+    color: white;
+  }
+  
+  .scooter{
+    margin-top: 2.6%;
+  }
+  
+  .mono{
+    display: inline;
+  }
+  
+  .scooter :last-child{
+    height: 27px;
+    border-radius: 5px;
+  }
+  
+  .carica1{
+    background-color: #f5b453;
+    width: 32%;
+  }
+  
+  .carica2{
+    background-color: #1ec31e;
+    width: 54%;
+  }
+  
+  .carica3{
+    background-color: #be4141;
+    width: 16%;
+  }
